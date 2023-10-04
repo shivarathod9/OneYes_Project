@@ -1,0 +1,563 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+#cursor{
+    height: 300px;
+    width: 300px;
+    background-color: #319b0478;
+    border-radius: 50%;
+    position: fixed;
+    filter: blur(50px);
+    z-index: 99;
+}
+#main{
+    position: relative;
+    overflow: hidden;
+
+}
+
+#page1{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(19, 4, 4);
+    position: relative;
+}
+#page1>video{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+}
+
+.header .frame {
+    position: absolute;
+    width: 447px;
+    height: 105px;
+    top: 0;
+    left: 62px;
+}
+
+.header .overlap-group {
+    position: relative;
+    height: 112px;
+    top: -1px;
+}
+
+.header .oneyes {
+    position: absolute;
+    width: 310px;
+    top: 0;
+    left: 0;
+    font-family: "Inter-Black", Helvetica;
+    font-weight: 900;
+    color: #fa0000;
+    font-size: 45px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.header .text-wrapper {
+    font-family: "Inter-BlackItalic", Helvetica;
+    font-style: italic;
+}
+
+.header .span {
+    font-family: "Inter-BlackItalic", Helvetica;
+    font-style: italic;
+    font-size: 60px;
+}
+
+.header .div {
+    position: absolute;
+    top: 58px;
+    left: 25px;
+    font-family: "Inter-BlackItalic", Helvetica;
+    font-weight: 900;
+    font-style: italic;
+    color: #faf6f6;
+    font-size: 45px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.header .navbar {
+    position: absolute;
+    width: 490px;
+    height: 18px;
+    top: 47px;
+    left: 811px;
+}
+
+.header .home {
+    left: 0;
+    color: #f13737;
+    position: absolute;
+    top: -1px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.header .about-us {
+    left: 69px;
+    color: #e82222;
+    position: absolute;
+    top: -1px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.header .services{
+    left: 155px;
+    color: #f40e0e;
+    position: absolute;
+    top: -1px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.header .clients {
+    left: 243px;
+    color: #ff0707;
+    position: absolute;
+    top: -1px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.header .products {
+    position: absolute;
+    top: -1px;
+    left: 319px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #f70d0d;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.header .text-wrapper-2 {
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #f70d0d;
+    font-size: 15px;
+    letter-spacing: 0;
+}
+
+.header .text-wrapper-3 {
+    font-size: 12px;
+}
+
+.header .contact-us {
+    position: absolute;
+    top: -1px;
+    left: 408px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #f61616;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+.label .we-provide-inovative {
+    position: fixed;
+    width: 555px;
+    top: 30%;
+    left:5%;
+    font-family: "Inter-ExtraBold", Helvetica;
+    font-weight: 800;
+    color: #be434f;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+.label .if-your-mind-thinks {
+    position: fixed;
+    width: 466px;
+    top: 55%;
+    left: 5%;
+    font-family: "Inter-BlackItalic", Helvetica;
+    font-weight: 900;
+    font-style: italic;
+    color: #fdf8f8;
+    font-size: 22px;
+}
+
+#page2{
+    display: flex;
+    align-self: start;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color: #222272;
+    position: relative;
+    padding: 0vw 8vw ;
+    color: #4e96e7;
+}
+#page2>h2{
+    font-family: "Inter-ExtraBold", Helvetica;
+    font-weight: 800;
+    margin-bottom: 3vw;
+    font-weight: 100;
+}
+#page2>h1{
+    font-weight: 100;
+    line-height: 1.3;
+    width: 90%;
+    font-size: 2.5vw;
+    color: #eaece695;
+}
+#page3 {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:#f5f6f7db;
+} 
+
+.label .expl {
+    position: fixed;
+    top: 30%;
+    left: 40%;
+    font-family: "Inter-ExtraBold Italic", Helvetica;
+    font-weight: 800;
+    font-style: italic;
+    color: #131313;
+    font-size: 35px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+.card {
+    width: 300px;
+    height: 400px;
+    perspective: 1000px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.card-inner {
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+}
+
+.card:hover .card-inner {
+    transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-front {
+    background-color: rgb(169, 238, 20); 
+}
+
+.card-back {
+    background-color: rgb(227, 143, 60); 
+    transform: rotateY(180deg);
+    padding: 20px;
+    text-align: center;
+}
+
+.card-back p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+#page4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    color: #ea0f0fe0;
+    background-color:#ccd2ae91;
+}
+
+.custom-header {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.card1-container {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    padding: 3%;
+}
+
+.card1{
+    flex: 1;
+    height: 315px;
+    width: 300px; /* Increase the width of the cards */
+    background-color: #8e404000;
+    border: 1px solid #8d2222;
+    border-radius: 15px;
+    animation: bounce 1s infinite alternate;
+    cursor: pointer;
+    overflow: hidden;
+    perspective: 1000px;
+    margin-right: 100px; 
+}
+
+.card1:last-child {
+    margin-right: 0; /* Remove margin from the last card */
+}
+
+.card1:hover {
+    animation-play-state: paused;
+}
+
+.card1-title {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.card1-info {
+    display: none;
+    padding: 20px;
+}
+
+.card1:hover .card1-info {
+    display: block;
+}
+
+@keyframes bounce {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.05);
+    }
+}
+.count-up {
+    position: fixed;
+    bottom: 45%;
+    left: 5%;
+    right: 5%;
+    background-color: transparent;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: #fb4747;
+}
+
+.count-up span {
+    text-align: center;
+    margin: 0 2px; /* Minimal horizontal margin */
+}
+
+.count-up .count {
+    font-size: 32px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.count-up .label {
+    font-size: 18px;
+    font-weight: bold;
+}
+#page5{
+    height: 100vh;
+    width: 100vw;
+    background-color:#e8eee5;
+}
+.header1{
+    color: rgb(18, 18, 18);
+    text-align: center;
+    padding: 20px;
+}
+.container1 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.card2{
+    background-color: #e3c82269;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.card2:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+#page6{
+    height: 100vh;
+    width: 100vw;
+    background-color:#63d0308a;
+}
+.header4 {
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.carousel-container {
+    top: 10%;
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.carousel {
+    display: flex;
+    animation: slide 20s linear infinite; /* Adjust the duration as needed */
+}
+.carousel img {
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-800px); /* Adjust the total width of the carousel */
+    }
+}
+.testimonial-container {
+    padding: 10%;
+    text-align: center;
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto; /* Center the testimonial container and add spacing */
+    overflow: hidden;
+    position: relative;
+}
+.testimonial-wrapper {
+    display: flex;
+    animation: slide-testimonials 8s linear infinite; /* Adjust the duration as needed */
+}
+.testimonial {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 100%;
+    flex-shrink: 0;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-800px); 
+    }
+}
+
+
+@keyframes slide-testimonials {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%); 
+    }
+}
+#page7{
+    height: 100vh;
+    width: 100vw;
+    background-color: #f8f9fb;
+}
+.contact-form {
+    width: 600px;
+    margin: 50px auto;
+    border: 2px solid #ffffff;
+    padding: 20px;
+    background: #fffbfb;
+    font-family: Arial, sans-serif;
+  }
+
+  /* Style the input fields */
+  .contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+
+  /* Style the submit button */
+  .contact-form button {
+    width: 100%;
+    background: #333;
+    color: white;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+  }
+
+  /* Style the success message */
+  .contact-form .success {
+    display: none;
+    color: green;
+    margin-top: 10px;
+  }
+
+  /* Style the error message */
+  .contact-form .error {
+    display: none;
+    color: red;
+    margin-top: 10px;
+  }
+  *{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#page8{
+    height: 100vh;
+    width: 100vw;
+    
+}
